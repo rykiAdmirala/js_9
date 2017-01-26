@@ -1,0 +1,45 @@
+.tabs-block {
+    max-width: 600px;
+    margin: 30px auto;
+}
+.tabs-head {
+    list-style: none;
+}
+.tabs-head li {
+    display: inline-block;
+}
+.tabs-head a {
+    display: block;
+    padding: 0 12px;
+    background: #fff;
+    border: 1px solid #28d627;
+    border-bottom: none;
+    border-radius: 4px 4px 0 0;
+    font-size: 19px;
+    line-height: 1.6;
+    text-align: center;
+    text-decoration: none;
+    color: #3a383a;
+}
+.tabs-head a.active-link,
+.tabs-head a:hover {
+    background: #28d627;
+}
+.tabs-head a:active {
+    background: #26c326;
+}
+.tabs-content {
+    height: 180px;
+    max-height: 200px;
+    padding: 15px 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    overflow-y: overlay;
+}
+.tabs-item {
+    display: none;
+}
+.tabs-item.active {
+    display: block;
+}

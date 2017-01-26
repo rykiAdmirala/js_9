@@ -1,0 +1,84 @@
+/* TOOLTIPS */
+.tooltip-block {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px 55px 40px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: inset 0 0 6px 1px rgba(0,0,0,.2);
+    box-sizing: border-box;
+}
+.tooltip-block .row {
+    margin: 15px 0;
+    padding: 0 0 15px;
+    border-bottom: 1px solid #eee;
+}
+.tooltip-block label {
+    display: inline-block;
+    vertical-align: middle;
+    width: 200px;
+}
+.tooltip-block input {
+    padding: 0 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: inset 1px 1px 5px 0 rgba(0,0,0,.1);
+    box-sizing: border-box;
+    line-height: 23px;
+}
+.tooltip-block input:focus {
+    background: #fffef5;
+    outline: none;
+}
+.tooltip {
+    display: none;
+    position: absolute;
+    max-width: 200px;
+    padding: 10px 15px;
+    background: #f3edc0;
+    border: 2px solid #e4dda9;
+    border-radius: 5px;
+    font-size: 13px;
+}
+.tooltip:after, .tooltip:before {
+    content: '';
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    height: 0;
+    width: 0;
+    border: solid transparent;
+}
+.tooltip:after {
+    border-right-color: #f3edc0;
+    border-width: 5px;
+    margin-top: -5px;
+}
+.tooltip:before {
+    border-right-color: #e4dda9;
+    border-width: 8px;
+    margin-top: -8px;
+}
+.showall {
+    margin: 5px 0 0;
+    padding: 0 15px;
+    background: linear-gradient(#01de01, #01a501);
+    border: 1px solid #04b904;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 17px;
+    text-shadow: 1px 1px 2px rgba(51, 51, 51, .5);
+    line-height: 30px;
+    cursor: pointer;
+}
+.showall:hover {
+    background: linear-gradient(#01ce01, #04b304);
+}
+.showall:active {
+    background: linear-gradient(to top, #01ce01, #04b304);
+}
+.showall:active,
+.showall:focus {
+    outline: none;
+}
